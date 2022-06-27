@@ -23,7 +23,7 @@
 			<Metadata Name="AssemblySymbolsName" Value="C:\Users\memasanz\source\repos\mm-synapse-tables\mm-synapse\obj\Debug\mm_synapse.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable">
-			<Metadata Name="externallocation" Value="" />
+			<Metadata Name="env" Value="" />
 		</CustomData>
 	</Header>
 	<Model>
@@ -1365,95 +1365,6 @@ END]]></Value>
 				</Entry>
 			</Relationship>
 			<AttachedAnnotation Disambiguator="9" />
-		</Element>
-		<Element Type="SqlExternalTable" Name="[dbo].[siteinfo]">
-			<Property Name="Location" Value="SiteInfo.csv" />
-			<Property Name="RejectType" Value="0" />
-			<Property Name="RejectValue" Value="0" />
-			<Property Name="RejectSampleValue" Value="-1" />
-			<Property Name="IsAnsiNullsOn" Value="True" />
-			<Property Name="IsQuotedIdentifierOn" Value="False" />
-			<Relationship Name="Columns">
-				<Entry>
-					<Element Type="SqlSimpleColumn" Name="[dbo].[siteinfo].[Site]">
-						<Relationship Name="TypeSpecifier">
-							<Entry>
-								<Element Type="SqlTypeSpecifier">
-									<Property Name="Length" Value="4000" />
-									<Relationship Name="Type">
-										<Entry>
-											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
-										</Entry>
-									</Relationship>
-								</Element>
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
-				<Entry>
-					<Element Type="SqlSimpleColumn" Name="[dbo].[siteinfo].[SiteName]">
-						<Relationship Name="TypeSpecifier">
-							<Entry>
-								<Element Type="SqlTypeSpecifier">
-									<Property Name="Length" Value="4000" />
-									<Relationship Name="Type">
-										<Entry>
-											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
-										</Entry>
-									</Relationship>
-								</Element>
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
-				<Entry>
-					<Element Type="SqlSimpleColumn" Name="[dbo].[siteinfo].[SiteLocation]">
-						<Relationship Name="TypeSpecifier">
-							<Entry>
-								<Element Type="SqlTypeSpecifier">
-									<Property Name="Length" Value="4000" />
-									<Relationship Name="Type">
-										<Entry>
-											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
-										</Entry>
-									</Relationship>
-								</Element>
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
-				<Entry>
-					<Element Type="SqlSimpleColumn" Name="[dbo].[siteinfo].[State]">
-						<Relationship Name="TypeSpecifier">
-							<Entry>
-								<Element Type="SqlTypeSpecifier">
-									<Property Name="Length" Value="4000" />
-									<Relationship Name="Type">
-										<Entry>
-											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
-										</Entry>
-									</Relationship>
-								</Element>
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
-			</Relationship>
-			<Relationship Name="DataSourceName">
-				<Entry>
-					<References Name="[raw_mmxsynapsex_dfs_core_windows_net]" />
-				</Entry>
-			</Relationship>
-			<Relationship Name="FileFormatName">
-				<Entry>
-					<References Name="[SynapseDelimitedTextFormat]" />
-				</Entry>
-			</Relationship>
-			<Relationship Name="Schema">
-				<Entry>
-					<References ExternalSource="BuiltIns" Name="[dbo]" />
-				</Entry>
-			</Relationship>
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Time]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
