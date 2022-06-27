@@ -1,0 +1,37 @@
+6/23/2022 9:59:42 PM	This log contains information about the import schema operation into project 'samplededicated' on computer 'MEMASANZSB2' by user 'memasanz'.
+6/23/2022 9:59:46 PM	Import of database schema has started.
+6/23/2022 9:59:48 PM	Gathering logins
+6/23/2022 9:59:49 PM	Gathering database credentials
+6/23/2022 9:59:49 PM	Gathering database options
+6/23/2022 9:59:49 PM	Gathering users
+6/23/2022 9:59:50 PM	Gathering roles
+6/23/2022 9:59:50 PM	Gathering role memberships
+6/23/2022 9:59:50 PM	Gathering certificates
+6/23/2022 9:59:50 PM	Gathering asymmetric keys
+6/23/2022 9:59:50 PM	Gathering symmetric keys
+6/23/2022 9:59:50 PM	Gathering encrypted symmetric keys
+6/23/2022 9:59:50 PM	Gathering schemas
+6/23/2022 9:59:50 PM	Gathering functions
+6/23/2022 9:59:50 PM	Gathering procedures
+6/23/2022 9:59:50 PM	Gathering partition table specification
+6/23/2022 9:59:50 PM	Gathering tables
+6/23/2022 9:59:51 PM	Gathering primary keys
+6/23/2022 9:59:52 PM	Gathering unique constraints
+6/23/2022 9:59:52 PM	Gathering default constraints
+6/23/2022 9:59:52 PM	Gathering views
+6/23/2022 9:59:52 PM	Gathering indexes
+6/23/2022 9:59:52 PM	Gathering statistics
+6/23/2022 9:59:52 PM	Gathering column store indexes
+6/23/2022 9:59:52 PM	Gathering security policies
+6/23/2022 9:59:52 PM	Gathering external data sources
+6/23/2022 9:59:52 PM	Gathering external file formats
+6/23/2022 9:59:52 PM	Gathering external tables
+6/23/2022 9:59:52 PM	Gathering Workload Groups
+6/23/2022 9:59:53 PM	Gathering Workload Classifiers
+6/23/2022 9:59:53 PM	Gathering database permissions
+6/23/2022 9:59:55 PM	Gathering logins
+6/23/2022 10:00:02 PM	Scanning project for duplicate elements
+6/23/2022 10:00:03 PM	Finished duplicate element processing
+6/23/2022 10:00:04 PM	Finished importing database.
+6/23/2022 10:00:04 PM	A summary of the import was saved to the following location: C:\Users\memasanz\source\repos\mm-synapse\samplededicated\samplededicated\Import Schema Logs\samplededicated_20220624025942.log
+6/23/2022 10:00:04 PM	Click Finish to continue...

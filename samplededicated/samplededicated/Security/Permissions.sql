@@ -1,0 +1,6 @@
+﻿GRANT CONTROL TO [LoaderRC20];
+
+
+GO
+GRANT CONNECT TO [LoaderRC20];
+

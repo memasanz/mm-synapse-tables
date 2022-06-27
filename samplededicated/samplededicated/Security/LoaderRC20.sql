@@ -1,0 +1,2 @@
+﻿CREATE USER [LoaderRC20] FOR LOGIN [LoaderRC20];
+
