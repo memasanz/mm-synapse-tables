@@ -135,7 +135,6 @@
     <Build Include="Security\LoaderRC20.sql" />
     <Build Include="Security\LoaderRC20_1.sql" />
     <Build Include="Security\RoleMemberships.sql" />
-    <Build Include="dbo\Stored Procedures\count_objects_by_date_created.sql" />
     <Build Include="dbo\Stored Procedures\insert_Medallion.sql" />
   </ItemGroup>
 </Project>
