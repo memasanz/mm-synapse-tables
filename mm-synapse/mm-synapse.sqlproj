@@ -123,6 +123,8 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="Security\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="External Resources\" />
+    <Folder Include="dbo\External Tables\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Date.sql" />
@@ -136,5 +138,10 @@
     <Build Include="Security\LoaderRC20_1.sql" />
     <Build Include="Security\RoleMemberships.sql" />
     <Build Include="dbo\Stored Procedures\insert_Medallion.sql" />
+    <Build Include="External Resources\raw_mmxsynapsexdev_dfs_core_windows_net.sql" />
+    <Build Include="External Resources\SynapseDelimitedTextFormat.sql" />
+    <Build Include="dbo\External Tables\siteinfo.sql">
+      <QuotedIdentifier>Off</QuotedIdentifier>
+    </Build>
   </ItemGroup>
 </Project>
