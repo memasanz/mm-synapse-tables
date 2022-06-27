@@ -23,7 +23,7 @@
 			<Metadata Name="AssemblySymbolsName" Value="C:\Users\memasanz\source\repos\mm-synapse-tables\mm-synapse\obj\Debug\mm_synapse.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable">
-			<Metadata Name="adlsdatastore" Value="" />
+			<Metadata Name="externallocation" Value="" />
 		</CustomData>
 	</Header>
 	<Model>
@@ -2432,7 +2432,7 @@ END]]></Value>
 			</Relationship>
 		</Element>
 		<Element Type="SqlExternalDataSource" Name="[raw_mmxsynapsex_dfs_core_windows_net]">
-			<Property Name="Location" Value="abfss://raw@$(adlsdatastore).dfs.core.windows.net" />
+			<Property Name="Location" Value="$(externallocation)" />
 		</Element>
 		<Element Type="SqlExternalFileFormat" Name="[SynapseDelimitedTextFormat]">
 			<Property Name="FieldTerminator" Value="," />
