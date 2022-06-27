@@ -1,0 +1,15 @@
+C:\Users\memasanz\source\repos\mm-synapse-tables\TestProject2\bin\Debug\TestProject2.dll.config
+C:\Users\memasanz\source\repos\mm-synapse-tables\TestProject2\bin\Debug\TestProject2.dll
+C:\Users\memasanz\source\repos\mm-synapse-tables\TestProject2\bin\Debug\TestProject2.pdb
+C:\Users\memasanz\source\repos\mm-synapse-tables\TestProject2\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\memasanz\source\repos\mm-synapse-tables\TestProject2\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\memasanz\source\repos\mm-synapse-tables\TestProject2\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\memasanz\source\repos\mm-synapse-tables\TestProject2\obj\Debug\TestProject2.csproj.AssemblyReference.cache
+C:\Users\memasanz\source\repos\mm-synapse-tables\TestProject2\obj\Debug\TestProject2.csproj.CoreCompileInputs.cache
+C:\Users\memasanz\source\repos\mm-synapse-tables\TestProject2\obj\Debug\TestProject2.csproj.CopyComplete
+C:\Users\memasanz\source\repos\mm-synapse-tables\TestProject2\obj\Debug\TestProject2.dll
+C:\Users\memasanz\source\repos\mm-synapse-tables\TestProject2\obj\Debug\TestProject2.pdb
+C:\Users\memasanz\source\repos\mm-synapse-tables\TestProject2\bin\Debug\Microsoft.Data.Tools.Components.dll
+C:\Users\memasanz\source\repos\mm-synapse-tables\TestProject2\bin\Debug\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\memasanz\source\repos\mm-synapse-tables\TestProject2\bin\Debug\Microsoft.Data.Tools.Utilities.dll
+C:\Users\memasanz\source\repos\mm-synapse-tables\TestProject2\bin\Debug\Microsoft.SqlServer.TransactSql.ScriptDom.dll
