@@ -5,10 +5,12 @@
     [State] NVARCHAR (4000) NULL
 )
     WITH (
-    DATA_SOURCE = [raw_mmxsynapsexdev_dfs_core_windows_net],
+    DATA_SOURCE = [raw_mmxsynapsex_dfs_core_windows_net],
     LOCATION = N'SiteInfo.csv',
     FILE_FORMAT = [SynapseDelimitedTextFormat],
     REJECT_TYPE = VALUE,
     REJECT_VALUE = 0
     );
+
+
 

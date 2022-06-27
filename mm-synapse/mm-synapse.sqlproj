@@ -143,6 +143,7 @@
     <Build Include="dbo\External Tables\siteinfo.sql">
       <QuotedIdentifier>Off</QuotedIdentifier>
     </Build>
+    <Build Include="External Resources\raw_mmxsynapsex_dfs_core_windows_net.sql" />
   </ItemGroup>
   <ItemGroup>
     <SqlCmdVariable Include="adlsdatastore">
