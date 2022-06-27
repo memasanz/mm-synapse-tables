@@ -1,0 +1,6 @@
+C:\Users\memasanz\source\repos\mm-synapse-tables\mm-synapse\bin\Debug\mm-synapse.dacpac
+C:\Users\memasanz\source\repos\mm-synapse-tables\mm-synapse\bin\Debug\mm_synapse.dll
+C:\Users\memasanz\source\repos\mm-synapse-tables\mm-synapse\bin\Debug\mm_synapse.pdb
+C:\Users\memasanz\source\repos\mm-synapse-tables\mm-synapse\obj\Debug\mm-synapse.sqlproj.AssemblyReference.cache
+C:\Users\memasanz\source\repos\mm-synapse-tables\mm-synapse\obj\Debug\mm_synapse.dll
+C:\Users\memasanz\source\repos\mm-synapse-tables\mm-synapse\obj\Debug\mm_synapse.pdb
