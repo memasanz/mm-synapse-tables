@@ -22,7 +22,9 @@
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
 			<Metadata Name="AssemblySymbolsName" Value="C:\Users\memasanz\source\repos\mm-synapse-tables\mm-synapse\obj\Debug\mm_synapse.pdb" />
 		</CustomData>
-		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
+		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable">
+			<Metadata Name="adlsdatastore" Value="" />
+		</CustomData>
 	</Header>
 	<Model>
 		<Element Type="SqlDatabaseOptions">
@@ -64,7 +66,7 @@
 		<Element Type="SqlRoleMembership">
 			<Relationship Name="Member">
 				<Entry>
-					<References Name="[LoaderRC20]" />
+					<References Name="[LoaderRC20]" Disambiguator="5" />
 				</Entry>
 			</Relationship>
 			<Relationship Name="Role">
@@ -1364,6 +1366,95 @@ END]]></Value>
 			</Relationship>
 			<AttachedAnnotation Disambiguator="9" />
 		</Element>
+		<Element Type="SqlExternalTable" Name="[dbo].[siteinfo]">
+			<Property Name="Location" Value="SiteInfo.csv" />
+			<Property Name="RejectType" Value="0" />
+			<Property Name="RejectValue" Value="0" />
+			<Property Name="RejectSampleValue" Value="-1" />
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Property Name="IsQuotedIdentifierOn" Value="False" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[siteinfo].[Site]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="4000" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[siteinfo].[SiteName]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="4000" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[siteinfo].[SiteLocation]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="4000" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[siteinfo].[State]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="4000" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DataSourceName">
+				<Entry>
+					<References Name="[raw_mmxsynapsex_dfs_core_windows_net]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="FileFormatName">
+				<Entry>
+					<References Name="[SynapseDelimitedTextFormat]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Time]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Relationship Name="Columns">
@@ -2325,20 +2416,28 @@ END]]></Value>
 			</Relationship>
 			<AttachedAnnotation Disambiguator="12" />
 		</Element>
-		<Element Type="SqlLogin" Name="[LoaderRC20]" Disambiguator="5">
+		<Element Type="SqlLogin" Name="[LoaderRC20]">
 			<Property Name="Password" Value="gqHSjkW_yowcppkqihuQVv4tmsFT7_&amp;#$!~&lt;pqrLc&gt;uul6N{" />
 			<Annotation Type="GloballyScoped" />
 		</Element>
-		<Element Type="SqlUser" Name="[LoaderRC20]">
+		<Element Type="SqlUser" Name="[LoaderRC20]" Disambiguator="5">
 			<Property Name="LoginIdentifierScript">
 				<Value><![CDATA[[LoaderRC20]]]></Value>
 			</Property>
 			<Property Name="AuthenticationType" Value="1" />
 			<Relationship Name="Login">
 				<Entry>
-					<References Name="[LoaderRC20]" Disambiguator="5" />
+					<References Name="[LoaderRC20]" />
 				</Entry>
 			</Relationship>
+		</Element>
+		<Element Type="SqlExternalDataSource" Name="[raw_mmxsynapsex_dfs_core_windows_net]">
+			<Property Name="Location" Value="abfss://raw@$(adlsdatastore).dfs.core.windows.net" />
+		</Element>
+		<Element Type="SqlExternalFileFormat" Name="[SynapseDelimitedTextFormat]">
+			<Property Name="FieldTerminator" Value="," />
+			<Property Name="FirstRow" Value="1" />
+			<Property Name="Encoding" Value="UTF8" />
 		</Element>
 	</Model>
 </DataSchemaModel>
