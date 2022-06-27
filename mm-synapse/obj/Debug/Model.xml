@@ -2432,7 +2432,7 @@ END]]></Value>
 			</Relationship>
 		</Element>
 		<Element Type="SqlExternalDataSource" Name="[raw_mmxsynapsex_dfs_core_windows_net]">
-			<Property Name="Location" Value="$(externallocation)" />
+			<Property Name="Location" Value="abfss://raw@mmxsynapsexdev.dfs.core.windows.net" />
 		</Element>
 		<Element Type="SqlExternalFileFormat" Name="[SynapseDelimitedTextFormat]">
 			<Property Name="FieldTerminator" Value="," />
