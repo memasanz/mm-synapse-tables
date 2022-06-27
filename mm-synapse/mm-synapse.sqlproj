@@ -144,4 +144,10 @@
       <QuotedIdentifier>Off</QuotedIdentifier>
     </Build>
   </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="adlsdatastore">
+      <DefaultValue>mmxsynapsexdev</DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
 </Project>
