@@ -3,6 +3,6 @@
   <PropertyGroup>
     <StartupScript>(Blank)</StartupScript>
     <StartAction>StartNone</StartAction>
-    <SqlCmdVar__1>mmxsynapsexqa</SqlCmdVar__1>
+    <SqlCmdVar__1>qa</SqlCmdVar__1>
   </PropertyGroup>
 </Project>

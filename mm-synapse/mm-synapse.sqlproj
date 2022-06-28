@@ -140,10 +140,13 @@
     <Build Include="dbo\Stored Procedures\insert_Medallion.sql" />
     <Build Include="External Resources\SynapseDelimitedTextFormat.sql" />
     <Build Include="External Resources\raw_mmxsynapsex_dfs_core_windows_net.sql" />
+    <Build Include="dbo\External Tables\siteinfo.sql">
+      <QuotedIdentifier>Off</QuotedIdentifier>
+    </Build>
   </ItemGroup>
   <ItemGroup>
-    <SqlCmdVariable Include="externallocation">
-      <DefaultValue>mmxsynapsexqa</DefaultValue>
+    <SqlCmdVariable Include="env">
+      <DefaultValue>qa</DefaultValue>
       <Value>$(SqlCmdVar__1)</Value>
     </SqlCmdVariable>
   </ItemGroup>
