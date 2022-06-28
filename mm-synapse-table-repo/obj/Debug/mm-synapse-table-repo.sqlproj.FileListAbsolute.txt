@@ -12,9 +12,5 @@ C:\Users\memasanz\source\repos\mm-synapse-table-repo2\mm-synapse-tables\mm-synap
 C:\Users\memasanz\source\repos\mm-synapse-table-repo2\mm-synapse-tables\mm-synapse-table-repo\bin\Debug\mm_synapse_table_repo.dll
 C:\Users\memasanz\source\repos\mm-synapse-table-repo2\mm-synapse-tables\mm-synapse-table-repo\bin\Debug\mm_synapse_table_repo.pdb
 C:\Users\memasanz\source\repos\mm-synapse-table-repo2\mm-synapse-tables\mm-synapse-table-repo\obj\Debug\mm-synapse-table-repo.sqlproj.AssemblyReference.cache
-C:\Users\memasanz\source\repos\mm-synapse-table-repo2\mm-synapse-tables\mm-synapse-table-repo\obj\Debug\Model.xml
-C:\Users\memasanz\source\repos\mm-synapse-table-repo2\mm-synapse-tables\mm-synapse-table-repo\obj\Debug\refactor.xml
-C:\Users\memasanz\source\repos\mm-synapse-table-repo2\mm-synapse-tables\mm-synapse-table-repo\obj\Debug\postdeploy.sql
-C:\Users\memasanz\source\repos\mm-synapse-table-repo2\mm-synapse-tables\mm-synapse-table-repo\obj\Debug\predeploy.sql
 C:\Users\memasanz\source\repos\mm-synapse-table-repo2\mm-synapse-tables\mm-synapse-table-repo\obj\Debug\mm_synapse_table_repo.dll
 C:\Users\memasanz\source\repos\mm-synapse-table-repo2\mm-synapse-tables\mm-synapse-table-repo\obj\Debug\mm_synapse_table_repo.pdb
