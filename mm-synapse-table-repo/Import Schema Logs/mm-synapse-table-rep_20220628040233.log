@@ -1,0 +1,36 @@
+6/27/2022 11:02:33 PM	This log contains information about the import schema operation into project 'mm-synapse-table-repo' on computer 'MEMASANZSB2' by user 'memasanz'.
+6/27/2022 11:02:34 PM	Import of database schema has started.
+6/27/2022 11:02:37 PM	Gathering logins
+6/27/2022 11:02:38 PM	Gathering database credentials
+6/27/2022 11:02:38 PM	Gathering database options
+6/27/2022 11:02:38 PM	Gathering users
+6/27/2022 11:02:38 PM	Gathering roles
+6/27/2022 11:02:38 PM	Gathering role memberships
+6/27/2022 11:02:38 PM	Gathering certificates
+6/27/2022 11:02:38 PM	Gathering asymmetric keys
+6/27/2022 11:02:38 PM	Gathering symmetric keys
+6/27/2022 11:02:38 PM	Gathering encrypted symmetric keys
+6/27/2022 11:02:38 PM	Gathering schemas
+6/27/2022 11:02:38 PM	Gathering functions
+6/27/2022 11:02:40 PM	Gathering procedures
+6/27/2022 11:02:40 PM	Gathering partition table specification
+6/27/2022 11:02:40 PM	Gathering tables
+6/27/2022 11:02:40 PM	Gathering primary keys
+6/27/2022 11:02:41 PM	Gathering unique constraints
+6/27/2022 11:02:41 PM	Gathering default constraints
+6/27/2022 11:02:41 PM	Gathering views
+6/27/2022 11:02:41 PM	Gathering indexes
+6/27/2022 11:02:42 PM	Gathering statistics
+6/27/2022 11:02:42 PM	Gathering column store indexes
+6/27/2022 11:02:43 PM	Gathering security policies
+6/27/2022 11:02:43 PM	Gathering external data sources
+6/27/2022 11:02:43 PM	Gathering external file formats
+6/27/2022 11:02:43 PM	Gathering external tables
+6/27/2022 11:02:43 PM	Gathering Workload Groups
+6/27/2022 11:02:43 PM	Gathering Workload Classifiers
+6/27/2022 11:02:44 PM	Gathering logins
+6/27/2022 11:02:47 PM	Scanning project for duplicate elements
+6/27/2022 11:02:48 PM	Finished duplicate element processing
+6/27/2022 11:02:48 PM	Finished importing database.
+6/27/2022 11:02:48 PM	A summary of the import was saved to the following location: C:\Users\memasanz\source\repos\mm-synapse-table-repo\mm-synapse-table-repo\Import Schema Logs\mm-synapse-table-rep_20220628040233.log
+6/27/2022 11:02:49 PM	Click Finish to continue...
