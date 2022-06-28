@@ -144,4 +144,14 @@
       <QuotedIdentifier>Off</QuotedIdentifier>
     </Build>
   </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="env">
+      <DefaultValue>
+      </DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="External Resources\Script.PostDeployment1.sql" />
+  </ItemGroup>
 </Project>

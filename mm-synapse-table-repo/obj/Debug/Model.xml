@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="mm_synapse_table_repo.dll" />
-			<Metadata Name="FileName" Value="C:\USERS\MEMASANZ\SOURCE\REPOS\MM-SYNAPSE-TABLE-REPO\MM-SYNAPSE-TABLE-REPO\OBJ\DEBUG\MM_SYNAPSE_TABLE_REPO.DLL" />
+			<Metadata Name="FileName" Value="C:\USERS\MEMASANZ\SOURCE\REPOS\MM-SYNAPSE-TABLE-REPO2\MM-SYNAPSE-TABLES\MM-SYNAPSE-TABLE-REPO\OBJ\DEBUG\MM_SYNAPSE_TABLE_REPO.DLL" />
 			<Metadata Name="AssemblyName" Value="mm_synapse_table_repo" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,9 +20,11 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Users\memasanz\source\repos\mm-synapse-table-repo\mm-synapse-table-repo\obj\Debug\mm_synapse_table_repo.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\memasanz\source\repos\mm-synapse-table-repo2\mm-synapse-tables\mm-synapse-table-repo\obj\Debug\mm_synapse_table_repo.pdb" />
 		</CustomData>
-		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
+		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable">
+			<Metadata Name="env" Value="" />
+		</CustomData>
 	</Header>
 	<Model>
 		<Element Type="SqlDatabaseOptions">
@@ -64,7 +66,7 @@
 		<Element Type="SqlRoleMembership">
 			<Relationship Name="Member">
 				<Entry>
-					<References Name="[LoaderRC20]" />
+					<References Name="[LoaderRC20]" Disambiguator="5" />
 				</Entry>
 			</Relationship>
 			<Relationship Name="Role">
@@ -2414,18 +2416,18 @@ END]]></Value>
 			</Relationship>
 			<AttachedAnnotation Disambiguator="12" />
 		</Element>
-		<Element Type="SqlLogin" Name="[LoaderRC20]" Disambiguator="5">
+		<Element Type="SqlLogin" Name="[LoaderRC20]">
 			<Property Name="Password" Value=".jmyvg`jgtjOe|ju:w|pr|fomsFT7_&amp;#$!~&lt;zxbavirhjjv&lt;" />
 			<Annotation Type="GloballyScoped" />
 		</Element>
-		<Element Type="SqlUser" Name="[LoaderRC20]">
+		<Element Type="SqlUser" Name="[LoaderRC20]" Disambiguator="5">
 			<Property Name="LoginIdentifierScript">
 				<Value><![CDATA[[LoaderRC20]]]></Value>
 			</Property>
 			<Property Name="AuthenticationType" Value="1" />
 			<Relationship Name="Login">
 				<Entry>
-					<References Name="[LoaderRC20]" Disambiguator="5" />
+					<References Name="[LoaderRC20]" />
 				</Entry>
 			</Relationship>
 		</Element>
